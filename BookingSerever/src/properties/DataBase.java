@@ -14,13 +14,13 @@ public class DataBase {
 	
 		try {
 			Properties prop = new Properties();
-			OutputStream output = new FileOutputStream("nazivBaze.properties");
+			OutputStream output = new FileOutputStream("DataBase.properties");
 			
 			prop.setProperty("url", "jdbc:mysql://localhost:3306/booking");
 			prop.setProperty("username", "root");
 			prop.setProperty("password", "");
-			prop.setProperty("email", "dbookingtestsend@gmail.com");
-			prop.setProperty("emailpass", "Dare.2703");
+			prop.setProperty("email", "enter your email");
+			prop.setProperty("emailpass", "email pass");
 			prop.store(output,null);
 			
 		} catch (FileNotFoundException e) {
@@ -29,7 +29,7 @@ public class DataBase {
 		}
 		
 		Properties prop = new Properties();
-		InputStream is = new FileInputStream("nazivBaze.properties");
+		InputStream is = new FileInputStream("DataBase.properties");
 		
 		prop.load(is);
 			
