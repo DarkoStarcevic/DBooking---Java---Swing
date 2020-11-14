@@ -14,7 +14,7 @@ public class DataBase {
 	
 		try {
 			Properties prop = new Properties();
-			OutputStream output = new FileOutputStream("DataBase.properties");
+			OutputStream output = new FileOutputStream("baseName.properties");
 			
 			prop.setProperty("url", "jdbc:mysql://localhost:3306/booking");
 			prop.setProperty("username", "root");
@@ -29,7 +29,7 @@ public class DataBase {
 		}
 		
 		Properties prop = new Properties();
-		InputStream is = new FileInputStream("DataBase.properties");
+		InputStream is = new FileInputStream("baseName.properties");
 		
 		prop.load(is);
 			
