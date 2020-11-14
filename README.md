@@ -10,7 +10,9 @@ DBooking is built with core Java and MySQL and contains three level projects (Cl
 
 Also, the application consists of three levels of access:
 • Super Admin - has access to financial reports (in this application it is the Super admin form that shows the profit of "DBooking", ie the administrator of the application who earns a percentage of earnings from reservations and has direct access to the database).
+
 • Admin - the owner of the facility (hotel, hostel, apartment, camp, resort, etc.), who enters his facility, rooms, photos and sets prices in the application, check reservations, reviews, earnings...
+
 • User - can make a reservation, check the booked accommodation, change personal data and leave a review after leaving the facility.
 
 The user part of the application contains of the main - Main form, which allows the Admin and the User, to register and log in to the application, if they have already registered.
